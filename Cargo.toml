@@ -1,0 +1,15 @@
+[package]
+name = "rchat"
+version = "0.1.0"
+authors = ["remfath <remfath@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "rchat-client"
+path = "./client/main.rs"
+
+[[bin]]
+name = "rchat-server"
+path = "./server/main.rs"
